@@ -18,7 +18,7 @@
 
   p{
     color: #2a2a2a;
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .titol_7{
@@ -42,7 +42,7 @@
    
   input, li, table, label {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #2a2a2a;
+    color: #000000;
   } 
   
   /* || header layout */
@@ -65,7 +65,7 @@
   
   div[class="nav"] {
     height: 50px;
-    background-color: #ff9c34;
+    background-color: #000000;
     display: flex;
     padding: 1% 0;
     margin-bottom: 10px;
@@ -134,6 +134,7 @@
   
   .secondary {
     flex: 2;
+    font-size: 20px;
   }
 
   .tit2 {
@@ -193,4 +194,9 @@
 
   footer{
     font-size: 1.8rem;
+  }
+
+  a{
+    font-size: 30px;
+    font-weight: bold;
   }
